@@ -5,6 +5,7 @@
   width: 90%;
   height: auto;
   display: flex;
+  flex-direction: row; 
   justify-content: center;
   align-items: center;
   padding: 70px 10px 10px;
@@ -41,6 +42,7 @@
 
 .hero__img img{
   max-width: 450px;
+  max-height: 550px;
   opacity: 0;
   animation: slideRight 1s ease forwards;
   z-index: -2;
@@ -97,3 +99,32 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+
+  .hero__content h3{
+    font-size: 30px;
+   }
+
+   .hero__content h1{ 
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+   }
+  
+   .hero__content p{ 
+    font-size: 12px;
+   }
+  
+  
+}
+
+@media only screen and (width: 375px) {
+ 
+  #hero{
+    width: 48rem;
+    display: block;
+    background-color:var(--color-secondary);
+    
+   }
+
+}

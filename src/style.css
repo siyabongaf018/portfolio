@@ -30,7 +30,7 @@
   .container{
     width: 48rem;
     display: block;
-    background-color:green;
+    background-color:var(--color-secondary);
     
    }
 

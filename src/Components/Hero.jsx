@@ -11,7 +11,7 @@ const Hero = () => {
           And I'm a <span>Backend Developer</span>
         </h3>
         <p>
-          Fueling Innovation with Code: Unleashing the Power of Java, React.js,
+          Fueling Innovation with Code: Unleashing the Power of Java, C#, PHP, JS React.js,
           and Spring Boot. Crafting Digital Solutions That Make Waves. Let's
           Build Something Extraordinary Together.
         </p>

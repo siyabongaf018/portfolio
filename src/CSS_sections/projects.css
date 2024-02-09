@@ -8,12 +8,13 @@
     text-align: center;
     margin-top: 10px;
     color: var(--color-primary);
+    height: auto;
     /* position: relative; */
   }
   .project__body{
     display: flex;
     justify-content: center;
-    /* flex-direction: column; */
+    flex-direction: row;
   }
   
   .project {
@@ -53,4 +54,25 @@
   .project li {
     margin-bottom: 5px;
   }
+  
+
+  @media screen and (max-width: 768px) {
+   
+    .project__body {
+      flex-direction: column; 
+    }
+
+    .project{
+      width: auto;
+    }
+    .project h3 {
+      font-size: 18px;
+    }
+    
+    .project p ,
+    .project ul li {
+      font-size: 12px;
+    }
+  }
+
   
